@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13516DF09D2310A0B534B418 /* Pods_FolledoRealEstateAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65FC3D5A169725B48C3CA905 /* Pods_FolledoRealEstateAppUITests.framework */; };
+		58963E844365A453C7EC4539 /* Pods_FolledoRealEstateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384936EB6F597481FE010031 /* Pods_FolledoRealEstateApp.framework */; };
+		7E0F461C219DE6DA00635674 /* SearchParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0F461B219DE6DA00635674 /* SearchParametersViewController.swift */; };
+		7E79842F2197D4D8002D0252 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E79842E2197D4D8002D0252 /* NotificationsViewController.swift */; };
+		7E7984312197D7C1002D0252 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7984302197D7C1002D0252 /* NotificationTableViewCell.swift */; };
+		7E7984332197E10F002D0252 /* FBNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7984322197E10F002D0252 /* FBNotification.swift */; };
+		7EAF4325219FE5C000EE4F03 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF4324219FE5C000EE4F03 /* IAPProduct.swift */; };
+		7EAF4327219FE64C00EE4F03 /* IAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF4326219FE64C00EE4F03 /* IAPService.swift */; };
+		7EE9A37221992E4700F36CFE /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE9A37121992E4700F36CFE /* PushNotifications.swift */; };
+		7EEC23E021A108D300B498D2 /* FinishRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEC23DF21A108D300B498D2 /* FinishRegistrationViewController.swift */; };
+		7EF11D72219B5955007FEBD8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF11D71219B5955007FEBD8 /* SearchViewController.swift */; };
+		C7A2A41C9C11192CC6937150 /* Pods_FolledoRealEstateAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8645F7B512F810725DFA665 /* Pods_FolledoRealEstateAppTests.framework */; };
+		CD100B5621891C4A006D7DAD /* MyPropertiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD100B5521891C4A006D7DAD /* MyPropertiesViewController.swift */; };
+		CD100B5B218A5205006D7DAD /* ImageGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD100B5A218A5205006D7DAD /* ImageGalleryViewController.swift */; };
+		CD11BD43218549530083729B /* PropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD11BD42218549530083729B /* PropertyViewController.swift */; };
+		CD11D4A52182150400C50166 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD11D4A42182150400C50166 /* CoreLocation.framework */; };
+		CD12861E2184142F00DD4BB8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD12861D2184142F00DD4BB8 /* MapViewController.swift */; };
+		CD16526B218D20B7001772EC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16526A218D20B7001772EC /* ProfileViewController.swift */; };
+		CD1685552176A61100610EC0 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CD1685532176A61100610EC0 /* ProgressHUD.bundle */; };
+		CD1685562176A61100610EC0 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1685542176A61100610EC0 /* ProgressHUD.m */; };
+		CD1685582178246500610EC0 /* RecentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1685572178246500610EC0 /* RecentViewController.swift */; };
+		CD16855A217825AA00610EC0 /* PropertyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD168559217825AA00610EC0 /* PropertyCollectionViewCell.swift */; };
+		CD16855C2178295200610EC0 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD16855B2178295100610EC0 /* Property.swift */; };
+		CD17EB31218BA4310045F5F1 /* ImageGalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD17EB30218BA4310045F5F1 /* ImageGalleryCollectionViewCell.swift */; };
+		CD1D801E217AC9A800F81129 /* AddPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D801D217AC9A800F81129 /* AddPropertyViewController.swift */; };
+		CD2A83EA2174125600474637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2A83E92174125600474637 /* AppDelegate.swift */; };
+		CD2A83EF2174125600474637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2A83ED2174125600474637 /* Main.storyboard */; };
+		CD2A83F12174126400474637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2A83F02174126400474637 /* Assets.xcassets */; };
+		CD2A83F42174126400474637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2A83F22174126400474637 /* LaunchScreen.storyboard */; };
+		CD2A83FF2174126500474637 /* FolledoRealEstateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2A83FE2174126500474637 /* FolledoRealEstateAppTests.swift */; };
+		CD2A840A2174126500474637 /* FolledoRealEstateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2A84092174126500474637 /* FolledoRealEstateAppUITests.swift */; };
+		CD2A841821741F3500474637 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD2A841721741F3500474637 /* GoogleService-Info.plist */; };
+		CD354F03217D6355006C2388 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD354F02217D6355006C2388 /* MainTabBarController.swift */; };
+		CD354F05217D767D006C2388 /* IDMPhotoBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD354F04217D767D006C2388 /* IDMPhotoBrowser.framework */; };
+		CD354F07217D77F4006C2388 /* ImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD354F06217D77F4006C2388 /* ImagePicker.framework */; };
+		CD354F09217D8B9C006C2388 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD354F08217D8B9C006C2388 /* Downloader.swift */; };
+		CD8DCA0721742F2300AD878C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DCA0621742F2300AD878C /* Constants.swift */; };
+		CD8DCA092174592200AD878C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DCA082174592200AD878C /* RegisterViewController.swift */; };
+		CD8DCA0B2174D72C00AD878C /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DCA0A2174D72C00AD878C /* FUser.swift */; };
+		CD8DCA0D2174DF0000AD878C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DCA0C2174DF0000AD878C /* Settings.swift */; };
+		CD8DCA0F2174FBE200AD878C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8DCA0E2174FBE200AD878C /* Service.swift */; };
+		CDEE61862187664B00CC43FB /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEE61852187664B00CC43FB /* FavoriteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD2A83FB2174126500474637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD2A83DE2174125500474637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2A83E52174125600474637;
+			remoteInfo = FolledoRealEstateApp;
+		};
+		CD2A84062174126500474637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD2A83DE2174125500474637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD2A83E52174125600474637;
+			remoteInfo = FolledoRealEstateApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		070E08AB1685B9C651F113BB /* Pods-FolledoRealEstateAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoRealEstateAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoRealEstateAppUITests/Pods-FolledoRealEstateAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		27D71F16619B4216C7EEE444 /* Pods-FolledoRealEstateAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoRealEstateAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoRealEstateAppUITests/Pods-FolledoRealEstateAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33EF1239F0C48FD56C24C120 /* Pods-FolledoRealEstateAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoRealEstateAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoRealEstateAppTests/Pods-FolledoRealEstateAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		384936EB6F597481FE010031 /* Pods_FolledoRealEstateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolledoRealEstateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A2CEDDD1D12EE5494AF8CCA /* Pods-FolledoRealEstateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoRealEstateApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoRealEstateApp/Pods-FolledoRealEstateApp.release.xcconfig"; sourceTree = "<group>"; };
+		65FC3D5A169725B48C3CA905 /* Pods_FolledoRealEstateAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolledoRealEstateAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E0F461B219DE6DA00635674 /* SearchParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchParametersViewController.swift; sourceTree = "<group>"; };
+		7E79842E2197D4D8002D0252 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		7E7984302197D7C1002D0252 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		7E7984322197E10F002D0252 /* FBNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBNotification.swift; sourceTree = "<group>"; };
+		7EAF4324219FE5C000EE4F03 /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
+		7EAF4326219FE64C00EE4F03 /* IAPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPService.swift; sourceTree = "<group>"; };
+		7EE9A37121992E4700F36CFE /* PushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
+		7EEC23DF21A108D300B498D2 /* FinishRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationViewController.swift; sourceTree = "<group>"; };
+		7EF11D71219B5955007FEBD8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		922DF842D2596F87EFF0D599 /* Pods-FolledoRealEstateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoRealEstateApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoRealEstateApp/Pods-FolledoRealEstateApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CD100B5521891C4A006D7DAD /* MyPropertiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPropertiesViewController.swift; sourceTree = "<group>"; };
+		CD100B5A218A5205006D7DAD /* ImageGalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewController.swift; sourceTree = "<group>"; };
+		CD11BD42218549530083729B /* PropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewController.swift; sourceTree = "<group>"; };
+		CD11D4A42182150400C50166 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CD12861D2184142F00DD4BB8 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CD16526A218D20B7001772EC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CD16855021767D0700610EC0 /* FolledoRealEstateApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FolledoRealEstateApp.entitlements; sourceTree = "<group>"; };
+		CD1685522176A61100610EC0 /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		CD1685532176A61100610EC0 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		CD1685542176A61100610EC0 /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
+		CD1685572178246500610EC0 /* RecentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentViewController.swift; sourceTree = "<group>"; };
+		CD168559217825AA00610EC0 /* PropertyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD16855B2178295100610EC0 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		CD17EB30218BA4310045F5F1 /* ImageGalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		CD1D801D217AC9A800F81129 /* AddPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPropertyViewController.swift; sourceTree = "<group>"; };
+		CD2A83E62174125600474637 /* FolledoRealEstateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FolledoRealEstateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2A83E92174125600474637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD2A83EE2174125600474637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD2A83F02174126400474637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD2A83F32174126400474637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD2A83F52174126400474637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2A83FA2174126500474637 /* FolledoRealEstateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolledoRealEstateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2A83FE2174126500474637 /* FolledoRealEstateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolledoRealEstateAppTests.swift; sourceTree = "<group>"; };
+		CD2A84002174126500474637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2A84052174126500474637 /* FolledoRealEstateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FolledoRealEstateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD2A84092174126500474637 /* FolledoRealEstateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolledoRealEstateAppUITests.swift; sourceTree = "<group>"; };
+		CD2A840B2174126500474637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD2A841721741F3500474637 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD354F02217D6355006C2388 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		CD354F04217D767D006C2388 /* IDMPhotoBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IDMPhotoBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD354F06217D77F4006C2388 /* ImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD354F08217D8B9C006C2388 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		CD8DCA022174243200AD878C /* FolledoRealEstateApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FolledoRealEstateApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD8DCA0621742F2300AD878C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD8DCA082174592200AD878C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CD8DCA0A2174D72C00AD878C /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		CD8DCA0C2174DF0000AD878C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CD8DCA0E2174FBE200AD878C /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CDEE61852187664B00CC43FB /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		DA9DB6F69F4F7570AFDDF12B /* Pods-FolledoRealEstateAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FolledoRealEstateAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FolledoRealEstateAppTests/Pods-FolledoRealEstateAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8645F7B512F810725DFA665 /* Pods_FolledoRealEstateAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FolledoRealEstateAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD2A83E32174125600474637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD11D4A52182150400C50166 /* CoreLocation.framework in Frameworks */,
+				CD354F07217D77F4006C2388 /* ImagePicker.framework in Frameworks */,
+				CD354F05217D767D006C2388 /* IDMPhotoBrowser.framework in Frameworks */,
+				58963E844365A453C7EC4539 /* Pods_FolledoRealEstateApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2A83F72174126500474637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A2A41C9C11192CC6937150 /* Pods_FolledoRealEstateAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2A84022174126500474637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13516DF09D2310A0B534B418 /* Pods_FolledoRealEstateAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0E4E43B55B7068392CB627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD11D4A42182150400C50166 /* CoreLocation.framework */,
+				CD354F06217D77F4006C2388 /* ImagePicker.framework */,
+				CD354F04217D767D006C2388 /* IDMPhotoBrowser.framework */,
+				384936EB6F597481FE010031 /* Pods_FolledoRealEstateApp.framework */,
+				F8645F7B512F810725DFA665 /* Pods_FolledoRealEstateAppTests.framework */,
+				65FC3D5A169725B48C3CA905 /* Pods_FolledoRealEstateAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7EAF4328219FE65300EE4F03 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				7EAF4324219FE5C000EE4F03 /* IAPProduct.swift */,
+				7EAF4326219FE64C00EE4F03 /* IAPService.swift */,
+			);
+			path = IAP;
+			sourceTree = "<group>";
+		};
+		7EE9A37321992E5600F36CFE /* PushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				7EE9A37121992E4700F36CFE /* PushNotifications.swift */,
+			);
+			path = PushNotification;
+			sourceTree = "<group>";
+		};
+		BBA37D485354B4317F1C5703 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				922DF842D2596F87EFF0D599 /* Pods-FolledoRealEstateApp.debug.xcconfig */,
+				5A2CEDDD1D12EE5494AF8CCA /* Pods-FolledoRealEstateApp.release.xcconfig */,
+				33EF1239F0C48FD56C24C120 /* Pods-FolledoRealEstateAppTests.debug.xcconfig */,
+				DA9DB6F69F4F7570AFDDF12B /* Pods-FolledoRealEstateAppTests.release.xcconfig */,
+				070E08AB1685B9C651F113BB /* Pods-FolledoRealEstateAppUITests.debug.xcconfig */,
+				27D71F16619B4216C7EEE444 /* Pods-FolledoRealEstateAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD100B5721891CBA006D7DAD /* Main Tab Bar Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD1685572178246500610EC0 /* RecentViewController.swift */,
+				7EF11D71219B5955007FEBD8 /* SearchViewController.swift */,
+				CD1D801D217AC9A800F81129 /* AddPropertyViewController.swift */,
+				CDEE61852187664B00CC43FB /* FavoriteViewController.swift */,
+				CD100B5521891C4A006D7DAD /* MyPropertiesViewController.swift */,
+			);
+			path = "Main Tab Bar Controllers";
+			sourceTree = "<group>";
+		};
+		CD100B5821891DA8006D7DAD /* Secondary Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD12861D2184142F00DD4BB8 /* MapViewController.swift */,
+				CD11BD42218549530083729B /* PropertyViewController.swift */,
+				CD100B5A218A5205006D7DAD /* ImageGalleryViewController.swift */,
+				CD16526A218D20B7001772EC /* ProfileViewController.swift */,
+				7E79842E2197D4D8002D0252 /* NotificationsViewController.swift */,
+				7E0F461B219DE6DA00635674 /* SearchParametersViewController.swift */,
+			);
+			path = "Secondary Controllers";
+			sourceTree = "<group>";
+		};
+		CD100B5921891DC3006D7DAD /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CD168559217825AA00610EC0 /* PropertyCollectionViewCell.swift */,
+				CD17EB30218BA4310045F5F1 /* ImageGalleryCollectionViewCell.swift */,
+				7E7984302197D7C1002D0252 /* NotificationTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		CD12861F21841A7500DD4BB8 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DCA082174592200AD878C /* RegisterViewController.swift */,
+				7EEC23DF21A108D300B498D2 /* FinishRegistrationViewController.swift */,
+			);
+			name = Register;
+			path = R;
+			sourceTree = "<group>";
+		};
+		CD1685512176A61100610EC0 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CD1685522176A61100610EC0 /* ProgressHUD.h */,
+				CD1685532176A61100610EC0 /* ProgressHUD.bundle */,
+				CD1685542176A61100610EC0 /* ProgressHUD.m */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		CD2A83DD2174125500474637 = {
+			isa = PBXGroup;
+			children = (
+				CD2A83E82174125600474637 /* FolledoRealEstateApp */,
+				CD2A83FD2174126500474637 /* FolledoRealEstateAppTests */,
+				CD2A84082174126500474637 /* FolledoRealEstateAppUITests */,
+				CD2A83E72174125600474637 /* Products */,
+				BBA37D485354B4317F1C5703 /* Pods */,
+				4C0E4E43B55B7068392CB627 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2A83E72174125600474637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2A83E62174125600474637 /* FolledoRealEstateApp.app */,
+				CD2A83FA2174126500474637 /* FolledoRealEstateAppTests.xctest */,
+				CD2A84052174126500474637 /* FolledoRealEstateAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD2A83E82174125600474637 /* FolledoRealEstateApp */ = {
+			isa = PBXGroup;
+			children = (
+				CD16855021767D0700610EC0 /* FolledoRealEstateApp.entitlements */,
+				CD2A83E92174125600474637 /* AppDelegate.swift */,
+				CD2A83ED2174125600474637 /* Main.storyboard */,
+				CD354F02217D6355006C2388 /* MainTabBarController.swift */,
+				CD100B5721891CBA006D7DAD /* Main Tab Bar Controllers */,
+				CD100B5821891DA8006D7DAD /* Secondary Controllers */,
+				CD100B5921891DC3006D7DAD /* Custom Cells */,
+				CD12861F21841A7500DD4BB8 /* Register */,
+				CD8DCA112175059F00AD878C /* Model */,
+				7EE9A37321992E5600F36CFE /* PushNotification */,
+				CD8DCA102174FBF000AD878C /* Helpers */,
+				CD2A83F02174126400474637 /* Assets.xcassets */,
+				CD2A83F22174126400474637 /* LaunchScreen.storyboard */,
+				CD2A83F52174126400474637 /* Info.plist */,
+				CD2A841721741F3500474637 /* GoogleService-Info.plist */,
+				CD8DCA022174243200AD878C /* FolledoRealEstateApp-Bridging-Header.h */,
+				CD1685512176A61100610EC0 /* ProgressHUD */,
+			);
+			path = FolledoRealEstateApp;
+			sourceTree = "<group>";
+		};
+		CD2A83FD2174126500474637 /* FolledoRealEstateAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD2A83FE2174126500474637 /* FolledoRealEstateAppTests.swift */,
+				CD2A84002174126500474637 /* Info.plist */,
+			);
+			path = FolledoRealEstateAppTests;
+			sourceTree = "<group>";
+		};
+		CD2A84082174126500474637 /* FolledoRealEstateAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD2A84092174126500474637 /* FolledoRealEstateAppUITests.swift */,
+				CD2A840B2174126500474637 /* Info.plist */,
+			);
+			path = FolledoRealEstateAppUITests;
+			sourceTree = "<group>";
+		};
+		CD8DCA102174FBF000AD878C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DCA0E2174FBE200AD878C /* Service.swift */,
+				CD8DCA0621742F2300AD878C /* Constants.swift */,
+				CD8DCA0C2174DF0000AD878C /* Settings.swift */,
+				CD354F08217D8B9C006C2388 /* Downloader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CD8DCA112175059F00AD878C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD8DCA0A2174D72C00AD878C /* FUser.swift */,
+				CD16855B2178295100610EC0 /* Property.swift */,
+				7E7984322197E10F002D0252 /* FBNotification.swift */,
+				7EAF4328219FE65300EE4F03 /* IAP */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD2A83E52174125600474637 /* FolledoRealEstateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2A840E2174126500474637 /* Build configuration list for PBXNativeTarget "FolledoRealEstateApp" */;
+			buildPhases = (
+				028A684A597C1F47404D3035 /* [CP] Check Pods Manifest.lock */,
+				CD2A83E22174125600474637 /* Sources */,
+				CD2A83E32174125600474637 /* Frameworks */,
+				CD2A83E42174125600474637 /* Resources */,
+				6D4C8F0E12F128B334F65543 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FolledoRealEstateApp;
+			productName = FolledoRealEstateApp;
+			productReference = CD2A83E62174125600474637 /* FolledoRealEstateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD2A83F92174126500474637 /* FolledoRealEstateAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2A84112174126500474637 /* Build configuration list for PBXNativeTarget "FolledoRealEstateAppTests" */;
+			buildPhases = (
+				DF2A77F1F9B536AC27ED60DA /* [CP] Check Pods Manifest.lock */,
+				CD2A83F62174126500474637 /* Sources */,
+				CD2A83F72174126500474637 /* Frameworks */,
+				CD2A83F82174126500474637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2A83FC2174126500474637 /* PBXTargetDependency */,
+			);
+			name = FolledoRealEstateAppTests;
+			productName = FolledoRealEstateAppTests;
+			productReference = CD2A83FA2174126500474637 /* FolledoRealEstateAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD2A84042174126500474637 /* FolledoRealEstateAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD2A84142174126500474637 /* Build configuration list for PBXNativeTarget "FolledoRealEstateAppUITests" */;
+			buildPhases = (
+				BCD93ADC248FC9730DF1E259 /* [CP] Check Pods Manifest.lock */,
+				CD2A84012174126500474637 /* Sources */,
+				CD2A84022174126500474637 /* Frameworks */,
+				CD2A84032174126500474637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2A84072174126500474637 /* PBXTargetDependency */,
+			);
+			name = FolledoRealEstateAppUITests;
+			productName = FolledoRealEstateAppUITests;
+			productReference = CD2A84052174126500474637 /* FolledoRealEstateAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2A83DE2174125500474637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Samuel Folledo";
+				TargetAttributes = {
+					CD2A83E52174125600474637 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					CD2A83F92174126500474637 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD2A83E52174125600474637;
+					};
+					CD2A84042174126500474637 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CD2A83E52174125600474637;
+					};
+				};
+			};
+			buildConfigurationList = CD2A83E12174125600474637 /* Build configuration list for PBXProject "FolledoRealEstateApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD2A83DD2174125500474637;
+			productRefGroup = CD2A83E72174125600474637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD2A83E52174125600474637 /* FolledoRealEstateApp */,
+				CD2A83F92174126500474637 /* FolledoRealEstateAppTests */,
+				CD2A84042174126500474637 /* FolledoRealEstateAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD2A83E42174125600474637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2A83F42174126400474637 /* LaunchScreen.storyboard in Resources */,
+				CD2A841821741F3500474637 /* GoogleService-Info.plist in Resources */,
+				CD2A83F12174126400474637 /* Assets.xcassets in Resources */,
+				CD1685552176A61100610EC0 /* ProgressHUD.bundle in Resources */,
+				CD2A83EF2174125600474637 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2A83F82174126500474637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2A84032174126500474637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		028A684A597C1F47404D3035 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FolledoRealEstateApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4C8F0E12F128B334F65543 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FolledoRealEstateApp/Pods-FolledoRealEstateApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IDMPhotoBrowser/IDMPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IDMPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FolledoRealEstateApp/Pods-FolledoRealEstateApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD93ADC248FC9730DF1E259 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FolledoRealEstateAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF2A77F1F9B536AC27ED60DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FolledoRealEstateAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD2A83E22174125600474637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD16855C2178295200610EC0 /* Property.swift in Sources */,
+				CD11BD43218549530083729B /* PropertyViewController.swift in Sources */,
+				CD16526B218D20B7001772EC /* ProfileViewController.swift in Sources */,
+				7EEC23E021A108D300B498D2 /* FinishRegistrationViewController.swift in Sources */,
+				7E7984332197E10F002D0252 /* FBNotification.swift in Sources */,
+				CD8DCA092174592200AD878C /* RegisterViewController.swift in Sources */,
+				CD354F03217D6355006C2388 /* MainTabBarController.swift in Sources */,
+				7EAF4325219FE5C000EE4F03 /* IAPProduct.swift in Sources */,
+				CD2A83EA2174125600474637 /* AppDelegate.swift in Sources */,
+				CD8DCA0721742F2300AD878C /* Constants.swift in Sources */,
+				CD100B5621891C4A006D7DAD /* MyPropertiesViewController.swift in Sources */,
+				CDEE61862187664B00CC43FB /* FavoriteViewController.swift in Sources */,
+				CD17EB31218BA4310045F5F1 /* ImageGalleryCollectionViewCell.swift in Sources */,
+				7E7984312197D7C1002D0252 /* NotificationTableViewCell.swift in Sources */,
+				7E0F461C219DE6DA00635674 /* SearchParametersViewController.swift in Sources */,
+				CD1685562176A61100610EC0 /* ProgressHUD.m in Sources */,
+				CD8DCA0B2174D72C00AD878C /* FUser.swift in Sources */,
+				7E79842F2197D4D8002D0252 /* NotificationsViewController.swift in Sources */,
+				7EF11D72219B5955007FEBD8 /* SearchViewController.swift in Sources */,
+				7EAF4327219FE64C00EE4F03 /* IAPService.swift in Sources */,
+				CD1685582178246500610EC0 /* RecentViewController.swift in Sources */,
+				CD354F09217D8B9C006C2388 /* Downloader.swift in Sources */,
+				CD8DCA0D2174DF0000AD878C /* Settings.swift in Sources */,
+				CD16855A217825AA00610EC0 /* PropertyCollectionViewCell.swift in Sources */,
+				CD100B5B218A5205006D7DAD /* ImageGalleryViewController.swift in Sources */,
+				7EE9A37221992E4700F36CFE /* PushNotifications.swift in Sources */,
+				CD8DCA0F2174FBE200AD878C /* Service.swift in Sources */,
+				CD1D801E217AC9A800F81129 /* AddPropertyViewController.swift in Sources */,
+				CD12861E2184142F00DD4BB8 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2A83F62174126500474637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2A83FF2174126500474637 /* FolledoRealEstateAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD2A84012174126500474637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2A840A2174126500474637 /* FolledoRealEstateAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD2A83FC2174126500474637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2A83E52174125600474637 /* FolledoRealEstateApp */;
+			targetProxy = CD2A83FB2174126500474637 /* PBXContainerItemProxy */;
+		};
+		CD2A84072174126500474637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD2A83E52174125600474637 /* FolledoRealEstateApp */;
+			targetProxy = CD2A84062174126500474637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD2A83ED2174125600474637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2A83EE2174125600474637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD2A83F22174126400474637 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD2A83F32174126400474637 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD2A840C2174126500474637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD2A840D2174126500474637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD2A840F2174126500474637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922DF842D2596F87EFF0D599 /* Pods-FolledoRealEstateApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FolledoRealEstateApp/FolledoRealEstateApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = FolledoRealEstateApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SamuelFolledo.FolledoRealEstateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FolledoRealEstateApp/FolledoRealEstateApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD2A84102174126500474637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2CEDDD1D12EE5494AF8CCA /* Pods-FolledoRealEstateApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = FolledoRealEstateApp/FolledoRealEstateApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = FolledoRealEstateApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SamuelFolledo.FolledoRealEstateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "FolledoRealEstateApp/FolledoRealEstateApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD2A84122174126500474637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33EF1239F0C48FD56C24C120 /* Pods-FolledoRealEstateAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = FolledoRealEstateAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FolledoSwag.FolledoRealEstateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolledoRealEstateApp.app/FolledoRealEstateApp";
+			};
+			name = Debug;
+		};
+		CD2A84132174126500474637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA9DB6F69F4F7570AFDDF12B /* Pods-FolledoRealEstateAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = FolledoRealEstateAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FolledoSwag.FolledoRealEstateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FolledoRealEstateApp.app/FolledoRealEstateApp";
+			};
+			name = Release;
+		};
+		CD2A84152174126500474637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070E08AB1685B9C651F113BB /* Pods-FolledoRealEstateAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = FolledoRealEstateAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FolledoSwag.FolledoRealEstateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FolledoRealEstateApp;
+			};
+			name = Debug;
+		};
+		CD2A84162174126500474637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D71F16619B4216C7EEE444 /* Pods-FolledoRealEstateAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9NY68F4K3P;
+				INFOPLIST_FILE = FolledoRealEstateAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FolledoSwag.FolledoRealEstateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FolledoRealEstateApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD2A83E12174125600474637 /* Build configuration list for PBXProject "FolledoRealEstateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2A840C2174126500474637 /* Debug */,
+				CD2A840D2174126500474637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2A840E2174126500474637 /* Build configuration list for PBXNativeTarget "FolledoRealEstateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2A840F2174126500474637 /* Debug */,
+				CD2A84102174126500474637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2A84112174126500474637 /* Build configuration list for PBXNativeTarget "FolledoRealEstateAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2A84122174126500474637 /* Debug */,
+				CD2A84132174126500474637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD2A84142174126500474637 /* Build configuration list for PBXNativeTarget "FolledoRealEstateAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2A84152174126500474637 /* Debug */,
+				CD2A84162174126500474637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2A83DE2174125500474637 /* Project object */;
+}
